@@ -655,7 +655,7 @@ var DateRangePicker;
             this.renderCalendar('right');
 
             //highlight any predefined range matching the current start and end dates
-            rangesLiElList = this.container.querySelectorAll('.ranges li');
+            var rangesLiElList = this.container.querySelectorAll('.ranges li');
             for(let i = 0; i < rangesLiElList.length; ++i)
                 rangesLiElList[i].classList.remove('active');
 
